@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUKU TECH</title>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/cbf308a86c.js" crossorigin="anonymous"></script>
+
+    <!-- link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;700&family=Quicksand:wght@300&display=swap" rel="stylesheet" />
+
+    <!-- link Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <!-- nav start -->
+      <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
+        <!-- container-lg start -->
+        <div class="container-lg">
+          <a class="navbar-brand text-warning" href="#">SUKU TECH</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- list nav start -->
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#service">Service</a>
+              <a class="nav-link" href="#ourtaem">Team</a>
+              <a class="nav-link" href="#kontakkami">Contact</a>
+              <!-- <a class="nav-link">
+                <form action="" method="post">
+                  <input class="form-control rounded pe-5" type="text" name="search" placeholder="search.." />
+                </form>
+              </a> -->
+              <a class="nav-link">
+                <button
+                  class="btn btn-outline-primary"
+                  onclick="document.getElementById('id01')
+                .style.display='block'"
+                  style="font-size: 20px; font-weight: bold"
+                >
+                  Login
+                </button>
+                <div id="id01" class="modal">
+                  <form action="#" class="modal-content animate" method="post">
+                    <div class="imgcontainer">
+                      <span
+                        onclick="document.getElementById('id01')
+                      .style.display='none'"
+                        class="close"
+                        title="Close model"
+                      >
+                        &times;
+                      </span>
+                      <img src="img/an.png" alt="logo suku tech" class="avatar" />
+                    </div>
+                    <div class="container1">
+                      <label for="name"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="name" required />
+
+                      <label for="password"><b>Password</b></label>
+                      <input type="password" placeholder="Enter password" name="pass" required />
+
+                      <button id="button" type="submit">Login</button>
+                      <input type="checkbox" checked="checked" /> Remember me
+                    </div>
+                    <div class="container1" style="background-color: #f1f1f1">
+                      <button
+                        id="button"
+                        type="button"
+                        onclick="document.getElementById('id01')
+                        .style.display='none'"
+                        class="cancelbtn"
+                      >
+                        Cancel
+                      </button>
+                      <span class="psw"
+                        >Forgot
+                        <a href="#" class="nav-link">password?</a>
+                      </span>
+                    </div>
+                  </form>
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- list nav end -->
+        </div>
+        <!-- container-lg end -->
+      </nav>
+      <!-- nav end -->
+
+      <!-- section start -->
+      <section id="home" class="container-lg">
+        <div class="row">
+          <div class="col-6 py-5">
+            <p class="fs-6 fw-bold">Welcome To Your New Website</p>
+            <h2 class="display-3 fw-bold">WE <span class="text-warning">CREATE</span> <br />DESIGN</h2>
+            <p>SUKU TECH bergerak di bidang Teknologi Dan Informasi. kami hadir untuk memberikan Solusi di bidang Teknologi. Bila kamu punya keluhan ataupun masalah jangan sungkan untuk menghubungi kami</p>
+            <a href="#service" class="nav-link button px-3">Layanan Kami</a>
+          </div>
+        </div>
+      </section>
+      <!-- section end -->
+    </header>
+    <!--  header end -->
+    <!-- about start -->
+    <section id="about">
+      <div class="container-lg py-5">
+        <h2 class="display-4 fw-bold text-center my-5">We<span class="text-warning"> About</span></h2>
+        <!-- row  start -->
+        <div class="row justify-content-center">
+          <!-- col start -->
+          <div class="col-lg-3 col-sm-10 justify-content-end">
+            <img src="img/an.png" class="img img-fluid w-100 rounded" alt="rebly megib tabuni" />
+          </div>
+          <!-- col end -->
+          <!-- col start -->
+          <div class="col-lg-9 col-sm-10">
+            <h3>We Care About Our Clients</h3>
+            <p class="fs-4">SUKU TECH bergerak di bidang Teknologi Dan Informasi. kami hadir untuk memberikan Solusi di bidang Teknologi. Bila kamu punya keluhan ataupun masalah jangan sungkan untuk menghubungi kami</p>
+
+            <!-- row start -->
+            <div class="row">
+              <!-- col start -->
+              <div class="col-lg-2 col-sm-4">
+                <button class="btn btn-white shadow text-secondary py-3 px-5 fw-bold">
+                  <strong class="text-warning"> 100+</strong> <br />
+                  Happy Clients
+                </button>
+              </div>
+              <!-- col end -->
+              <!-- col start -->
+              <div class="col-lg-2 col-sm-4">
+                <button class="btn btn-white shadow text-secondary py-3 px-5 fw-bold">
+                  <strong class="text-warning"> 900+</strong> <br />
+                  Hard Workers
+                </button>
+              </div>
+              <!-- col end -->
+              <!-- col start -->
+              <div class="col-lg-2 col-sm-4">
+                <button class="btn btn-white shadow text-secondary py-3 px-5 fw-bold">
+                  <strong class="text-warning">90+</strong> <br />
+                  <br />
+                  Projects
+                </button>
+              </div>
+              <!-- col end -->
+            </div>
+            <!-- row end -->
+            <a href="#service" class="btn btn-info my-4 px-4">Service</a>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </div>
+    </section>
+    <!-- about end -->
+    <section id="layanan">
+      <div class="container-fluid py-3">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-3">
+            <h4>Kenapa Memilih Kami ?</h4>
+            <p>Siap Eksekusi</p>
+          </div>
+          <div class="col-lg-1">
+            <h1 class="display-1 text-warning d-none d-lg-inline">&gt;</h1>
+          </div>
+          <div class="col-lg-2">
+            <h4>Konsultasi Gratis</h4>
+            <p>kami memberikan clients kami berkonsultasi gratis</p>
+          </div>
+          <div class="col-lg-1">
+            <h1 class="display-1 text-warning d-none d-lg-inline">&gt;</h1>
+          </div>
+          <div class="col-lg-2">
+            <h4>Harga terjangkau</h4>
+            <p>Layanan yang kami berikan dengan harga yang standar</p>
+          </div>
+          <div class="col-lg-1">
+            <h1 class="display-1 text-warning d-none d-lg-inline">&gt;</h1>
+          </div>
+          <div class="col-lg-2">
+            <h4>Kualitas Terjamin</h4>
+            <p>layanan yang kami berikan sesuai kebutuhan client kami</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service start -->
+    <section id="service" class="pb-5">
+      <div class="container-lg bg-white py-5 px-5 shadow rounded">
+        <h2 class="display-4 fw-bold text-center my-5">We<span class="text-warning"> Services</span></h2>
+        <!-- row star -->
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 col-lg-6 blurb">
+            <div class="text-center" id="title-head">
+              <h4 class="display-6 fw-bold text-end">1. Aplikasi / Sistem informasi</h4>
+              <p class="fs-5 text-end">SUKU TECH Melayani Pembuatan website seperti: Web profil Sekolah, Bisnis, perusahaan dan aplikasi manajemen, Aplikasi Ecomerse dan Blog Forum dll.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 pb-5">
+            <img class="img-fluid rounded" src="img/img-service/banner5.jpg" alt="" />
+          </div>
+        </div>
+        <!-- row end -->
+        <!-- row start -->
+        <div class="row justify-content-center bg-white contentr my-5">
+          <div class="col-lg-4 order-2 order-md-1">
+            <img class="img-fluid rounded" src="img/img-service/banner6.jpg" alt="" />
+          </div>
+          <div class="col-lg-7 order-1 order-md-2">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 blurb pt-3">
+                <h4 class="display-6 fw-bold text-start">2. UI UX Design</h4>
+                <img src="img/img-service/banner3.jpg" height="60" alt="" class="d-none d-lg-inline rounded ms-1" />
+                <p class="text-start">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus perferendis, maxime error ab beatae quo atque sunt! Natus suscipit accusamus, ut molestias pariatur fuga unde qui ipsa saepe nemo eaque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- row end -->
+        <div class="row content" id="ticket">
+          <div class="col-lg-4 pt-3 order-2 order-md-1">
+            <img class="img-fluid rounded" src="img/img-service/banner4.jpg" alt="" />
+          </div>
+          <div class="col-lg-7 pt-3">
+            <div class="row justify-content-center">
+              <div class="col-lg-10 blurb pt-3 text-end">
+                <h4 class="display-6 fw-bold text-end">3. Pemasangan Jaringan</h4>
+                <img src="img/img-service/banner1.png" height="60" alt="" class="d-none d-lg-inline rounded" />
+                <p class="text-end">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus perferendis, maxime error ab beatae quo atque sunt! Natus suscipit accusamus, ut molestias pariatur fuga unde qui ipsa saepe nemo eaque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service end -->
+
+    <section id="layanan">
+      <div class="container-fluid py-3">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-3">
+            <h4>Kenapa Memilih Kami ?</h4>
+            <p>Siap Eksekusi</p>
+          </div>
+          <div class="col-lg-1">
+            <h1 class="display-1 text-warning d-none d-lg-inline">&gt;</h1>
+          </div>
+          <div class="col-lg-2">
+            <h4>Konsultasi Gratis</h4>
+            <p>kami memberikan clients kami berkonsultasi gratis</p>
+          </div>
+          <div class="col-lg-1">
+            <h1 class="display-1 text-warning d-none d-lg-inline">&gt;</h1>
+          </div>
+          <div class="col-lg-2">
+            <h4>Harga terjangkau</h4>
+            <p>Layanan yang kami berikan dengan harga yang standar</p>
+          </div>
+          <div class="col-lg-1">
+            <h1 class="display-1 text-warning d-none d-lg-inline">&gt;</h1>
+          </div>
+          <div class="col-lg-2">
+            <h4>Kualitas Terjamin</h4>
+            <p>layanan yang kami berikan sesuai kebutuhan client kami</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Taem start -->
+    <section id="ourtaem">
+      <div id="box" class="container-fluid">
+        <h2 class="display-4 fw-bold text-center my-4">Our<span class="text-warning"> Team</span></h2>
+        <p class="text-center">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
+          Fugiat illo saepe earum odio voluptatem ipsum repellendus debitis fuga molestiae dolorem! <br />
+          Cumque labore pariatur facilis tenetur illo, eligendi quos eius a.
+        </p>
+
+        <!-- row start -->
+        <div class="row justify-content-center">
+          <!-- col start -->
+          <div class="col-lg-3 my-5">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/anjas.jpg" alt="" class="card-img-top" />
+                <span class="fw-bold fs-6 my-3 d-block">Anjas Tabuni</span>
+                <p class="card-title text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, voluptatem asperiores repellendus ipsum?</p>
+                <a href="#" class="btn btn-info">Folow Me</a>
+              </div>
+            </div>
+          </div>
+          <!-- col end -->
+          <!-- col start -->
+          <div class="col-lg-3 my-5">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/anjas.jpg" alt="" class="card-img-top" />
+                <span class="fw-bold fs-6 my-3 d-block">Anjas Tabuni</span>
+                <p class="card-title text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, voluptatem asperiores repellendus ipsum?</p>
+                <a href="#" class="btn btn-info">Folow Me</a>
+              </div>
+            </div>
+          </div>
+          <!-- col end -->
+          <!-- col start -->
+          <div class="col-lg-3 my-5">
+            <div class="card">
+              <div class="card-body">
+                <img src="img/anjas.jpg" alt="" class="card-img-top" />
+                <span class="fw-bold fs-6 my-3 d-block">Anjas Tabuni</span>
+                <p class="card-title text-dark">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, voluptatem asperiores repellendus ipsum?</p>
+                <a href="#" class="btn btn-info">Folow Me</a>
+              </div>
+            </div>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- row end -->
+      </div>
+    </section>
+    <!-- Taem end -->
+    <!-- contact start -->
+    <section id="kontakkami ">
+      <div class="container-fluid kontakkami">
+        <h2 class="py-4 display-5 fw-bolder text-center">Contact Me</h2>
+        <p class="text-center mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Laborum ex, quae exercitationem aliquam doloribus optio distinctio assumenda dolores excepturi similique <br />
+          aliquid molestias at voluptas totam voluptatum? Quam sequi ipsa architecto.
+        </p>
+        <!-- .row start -->
+        <div class="row justify-content-center">
+          <!-- col start -->
+          <div class="col-lg-5 col-sm-10">
+            <form>
+              <div class="my-3">
+                <h3>Pesan</h3>
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+              </div>
+              <div class="my-3">
+                <label for="exampleInputPassword1" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" />
+              </div>
+              <div class="my-3">
+                <label class="form-label">Tulis Pesan</label>
+                <textarea class="form-control" cols="95" rows="6"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim</button>
+            </form>
+          </div>
+          <!-- col end -->
+          <!-- col start -->
+          <div class="col-lg-4 col-sm-12">
+            <h3 class="fw-bolder text-center pt-5 pb-3">Lokasi</h3>
+            <div class="justify-content-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3985.7239950768158!2d140.6295004142818!3d-2.595908539187737!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x686cf43695add6d3%3A0xf2e38012210c3bb1!2sTaman%20Budaya%20EXPO%20Waena!5e0!3m2!1sid!2sid!4v1618310770679!5m2!1sid!2sid"
+                width="440px"
+                height="300px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+            </div>
+          </div>
+          <!-- col end -->
+        </div>
+        <!-- .row end -->
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer  start-->
+    <footer class="bg-dark">
+      <div class="container-lg py-4">
+        <p class="text-center text-secondary">copyright &copy; by anjas 2023</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          let $nav = $("#navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- link jqury -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

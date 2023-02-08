@@ -1,0 +1,264 @@
+body {
+  background: #c2ded1;
+
+  font-family: "Nunito", sans-serif;
+}
+.header {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(109, 138, 255, 0.6), rgba(4, 9, 30, 0.6)), url("/img/cenderawasi.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav .navbar-brand,
+a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#navbar {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: white;
+}
+#navbar .nav-link {
+  color: rgb(209, 174, 0);
+}
+#navbar .nav-link:hover {
+  color: #354259;
+}
+
+#navbar .navbar-brand {
+  color: #354259;
+  font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+  background-color: #c2ded1;
+}
+
+#title-head {
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.blurb h2 {
+  color: #354259;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+.blurb p {
+  color: #3f4e4f;
+  font-weight: 100;
+  font-size: 1.125rem;
+  line-height: 2;
+}
+
+@media (max-width: 1200px) {
+  #title-head h1 {
+    font-weight: 100;
+    font-size: 3rem;
+  }
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#button[type="submit"] {
+  background-color: #485ad1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+#button[type="button"] {
+  background-color: #d14848;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #4682b4;
+}
+.imgcontainer {
+  text-align: center;
+  margin: 25px 0 12px 0;
+  position: relative;
+}
+img.avatar {
+  width: 20%;
+  border-radius: 50%;
+}
+.container1 {
+  padding: 16px;
+}
+span.psw {
+  float: right;
+  padding-top: 20px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  /* width: 100%;
+  height: 100%; */
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-top: 60px;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 40%;
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s;
+}
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transfrom: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes animatezoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@media screen and(max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+/* @media screen and(max-width: 700px) {
+  .modal-content {
+    width: 20%;
+  }
+} */
+
+#home {
+  display: flexbox;
+  padding-top: 10%;
+  color: white;
+}
+#home a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 6px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #0787fff5;
+  color: rgb(255, 255, 255);
+  border-radius: none;
+}
+#home a:hover {
+  background-color: #2294ff;
+  color: #000;
+}
+#about {
+  background-image: linear-gradient(rgba(109, 138, 255, 0.6), rgba(4, 9, 30, 0.6)), url("/img/img-service/banner1.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 1.5;
+  color: white;
+}
+#layanan {
+  background-image: linear-gradient(rgba(109, 138, 255, 0.6), rgba(4, 9, 30, 0.6));
+  color: #fefefe;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding: 20px;
+}
+#service {
+  background-color: #e0d7ff;
+  opacity: 1.7;
+}
+
+#contact {
+  background-color: #e0d7ff;
+}
+.kontakkami {
+  background-color: #e0d7ff;
+  margin: auto;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  margin: auto;
+  background-color: #e0d7ff;
+  padding: 15px;
+  padding-top: 30px;
+  opacity: 0.7;
+}
+.card-body {
+  text-align: center;
+  border-radius: 15px;
+  color: #2294ff;
+}
+
+.card img {
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#box {
+  margin: 0;
+  background-image: url(/img/head.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
